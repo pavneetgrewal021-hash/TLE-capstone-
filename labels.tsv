@@ -1,0 +1,220 @@
+participant_id	group	cohort	pair	scanner	sex	age_band	tle_side	pathology	match_quality	split
+sub-119	patient	matched	1	DISCOVERY MR750	M	<20	R	DNT	exact	dev
+sub-4013	control	matched	1	DISCOVERY MR750	M	<20	n/a	n/a	exact	dev
+sub-88	patient	matched	2	DISCOVERY MR750	M	45 to 49	L	CAV	exact	dev
+sub-4043	control	matched	2	DISCOVERY MR750	M	45 to 49	n/a	n/a	exact	dev
+sub-113	patient	matched	3	DISCOVERY MR750	M	<20	R	TREBLE	sex, nearest age	test
+sub-4061	control	matched	3	DISCOVERY MR750	M	20 to 24	n/a	n/a	sex, nearest age	test
+sub-61	patient	matched	4	DISCOVERY MR750	M	45 to 49	R	HS	sex, nearest age	dev
+sub-4028	control	matched	4	DISCOVERY MR750	M	40 to 44	n/a	n/a	sex, nearest age	dev
+sub-182	patient	matched	5	DISCOVERY MR750	F	25 to 29	L	DNT	exact	dev
+sub-4006	control	matched	5	DISCOVERY MR750	F	25 to 29	n/a	n/a	exact	dev
+sub-1	patient	matched	6	DISCOVERY MR750	M	20 to 24	R	OTHER	exact	dev
+sub-4042	control	matched	6	DISCOVERY MR750	M	20 to 24	n/a	n/a	exact	dev
+sub-424	patient	matched	7	DISCOVERY MR750	M	30 to 34	L	DNT	exact	dev
+sub-4024	control	matched	7	DISCOVERY MR750	M	30 to 34	n/a	n/a	exact	dev
+sub-185	patient	matched	8	DISCOVERY MR750	F	25 to 29	L	DUAL	exact	test
+sub-4098	control	matched	8	DISCOVERY MR750	F	25 to 29	n/a	n/a	exact	test
+sub-221	patient	matched	9	DISCOVERY MR750	M	30 to 34	L	DNT	exact	test
+sub-4011	control	matched	9	DISCOVERY MR750	M	30 to 34	n/a	n/a	exact	test
+sub-354	patient	matched	10	DISCOVERY MR750	F	25 to 29	L	HS	sex, nearest age	dev
+sub-4045	control	matched	10	DISCOVERY MR750	F	20 to 24	n/a	n/a	sex, nearest age	dev
+sub-141	patient	matched	11	DISCOVERY MR750	M	30 to 34	L	DNT	sex, nearest age	dev
+sub-4083	control	matched	11	DISCOVERY MR750	M	35 to 39	n/a	n/a	sex, nearest age	dev
+sub-414	patient	matched	12	DISCOVERY MR750	M	20 to 24	L	DNT	sex, nearest age	dev
+sub-4074	control	matched	12	DISCOVERY MR750	M	25 to 29	n/a	n/a	sex, nearest age	dev
+sub-91	patient	matched	13	DISCOVERY MR750	F	25 to 29	R	CAV	sex, nearest age	dev
+sub-4066	control	matched	13	DISCOVERY MR750	F	20 to 24	n/a	n/a	sex, nearest age	dev
+sub-120	patient	matched	14	DISCOVERY MR750	M	20 to 24	L	HS	sex, nearest age	dev
+sub-4099	control	matched	14	DISCOVERY MR750	M	25 to 29	n/a	n/a	sex, nearest age	dev
+sub-395	patient	matched	15	DISCOVERY MR750	F	25 to 29	R	OTHER	sex, nearest age	dev
+sub-4027	control	matched	15	DISCOVERY MR750	F	30 to 34	n/a	n/a	sex, nearest age	dev
+sub-38	patient	matched	16	DISCOVERY MR750	M	30 to 34	R	HS	sex, nearest age	test
+sub-4005	control	matched	16	DISCOVERY MR750	M	35 to 39	n/a	n/a	sex, nearest age	test
+sub-319	patient	matched	17	DISCOVERY MR750	M	30 to 34	L	CAV	sex, nearest age	dev
+sub-4059	control	matched	17	DISCOVERY MR750	M	35 to 39	n/a	n/a	sex, nearest age	dev
+sub-443	patient	matched	18	DISCOVERY MR750	M	20 to 24	R	DNT	sex, nearest age	dev
+sub-4078	control	matched	18	DISCOVERY MR750	M	25 to 29	n/a	n/a	sex, nearest age	dev
+sub-438	patient	matched	19	DISCOVERY MR750	M	40 to 44	R	OTHER	exact	dev
+sub-4048	control	matched	19	DISCOVERY MR750	M	40 to 44	n/a	n/a	exact	dev
+sub-93	patient	matched	20	DISCOVERY MR750	F	45 to 49	L	HS	exact	dev
+sub-4019	control	matched	20	DISCOVERY MR750	F	45 to 49	n/a	n/a	exact	dev
+sub-306	patient	matched	21	DISCOVERY MR750	F	45 to 49	L	OTHER	exact	dev
+sub-4015	control	matched	21	DISCOVERY MR750	F	45 to 49	n/a	n/a	exact	dev
+sub-422	patient	matched	22	DISCOVERY MR750	M	40 to 44	L	OTHER	exact	dev
+sub-4012	control	matched	22	DISCOVERY MR750	M	40 to 44	n/a	n/a	exact	dev
+sub-144	patient	matched	23	DISCOVERY MR750	F	45 to 49	R	HS	exact	test
+sub-4079	control	matched	23	DISCOVERY MR750	F	45 to 49	n/a	n/a	exact	test
+sub-5	patient	matched	24	DISCOVERY MR750	F	45 to 49	L	HS	sex, nearest age	dev
+sub-4055	control	matched	24	DISCOVERY MR750	F	50 to 54	n/a	n/a	sex, nearest age	dev
+sub-434	patient	matched	25	DISCOVERY MR750	M	35 to 39	L	DUAL	exact	dev
+sub-4097	control	matched	25	DISCOVERY MR750	M	35 to 39	n/a	n/a	exact	dev
+sub-60	patient	matched	26	DISCOVERY MR750	M	55+	L	DUAL	exact	dev
+sub-4064	control	matched	26	DISCOVERY MR750	M	55+	n/a	n/a	exact	dev
+sub-16	patient	matched	27	DISCOVERY MR750	M	55+	R	HS	exact	dev
+sub-4029	control	matched	27	DISCOVERY MR750	M	55+	n/a	n/a	exact	dev
+sub-39	patient	matched	28	DISCOVERY MR750	F	55+	L	HS	exact	test
+sub-4084	control	matched	28	DISCOVERY MR750	F	55+	n/a	n/a	exact	test
+sub-312	patient	matched	29	DISCOVERY MR750	M	55+	L	DNT	exact	test
+sub-4018	control	matched	29	DISCOVERY MR750	M	55+	n/a	n/a	exact	test
+sub-217	patient	matched	30	DISCOVERY MR750	M	55+	L	HS	exact	dev
+sub-4089	control	matched	30	DISCOVERY MR750	M	55+	n/a	n/a	exact	dev
+sub-164	patient	matched	31	DISCOVERY MR750	F	40 to 44	L	HS	exact	dev
+sub-4023	control	matched	31	DISCOVERY MR750	F	40 to 44	n/a	n/a	exact	dev
+sub-35	patient	matched	32	DISCOVERY MR750	F	30 to 34	L	CAV	exact	dev
+sub-4096	control	matched	32	DISCOVERY MR750	F	30 to 34	n/a	n/a	exact	dev
+sub-406	patient	matched	33	DISCOVERY MR750	F	30 to 34	R	HS	exact	dev
+sub-4003	control	matched	33	DISCOVERY MR750	F	30 to 34	n/a	n/a	exact	dev
+sub-95	patient	matched	34	DISCOVERY MR750	F	30 to 34	R	HS	exact	dev
+sub-4037	control	matched	34	DISCOVERY MR750	F	30 to 34	n/a	n/a	exact	dev
+sub-387	patient	matched	35	DISCOVERY MR750	F	30 to 34	L	HS	exact	dev
+sub-4091	control	matched	35	DISCOVERY MR750	F	30 to 34	n/a	n/a	exact	dev
+sub-325	patient	matched	36	DISCOVERY MR750	F	30 to 34	R	HS	exact	dev
+sub-4095	control	matched	36	DISCOVERY MR750	F	30 to 34	n/a	n/a	exact	dev
+sub-56	patient	matched	37	DISCOVERY MR750	F	30 to 34	L	HS	sex, nearest age	dev
+sub-4100	control	matched	37	DISCOVERY MR750	F	35 to 39	n/a	n/a	sex, nearest age	dev
+sub-215	patient	matched	38	DISCOVERY MR750	F	35 to 39	L	HS	exact	dev
+sub-4046	control	matched	38	DISCOVERY MR750	F	35 to 39	n/a	n/a	exact	dev
+sub-44	patient	matched	39	DISCOVERY MR750	F	35 to 39	R	TREBLE	exact	dev
+sub-4087	control	matched	39	DISCOVERY MR750	F	35 to 39	n/a	n/a	exact	dev
+sub-273	patient	matched	40	DISCOVERY MR750	F	20 to 24	L	HS	exact	test
+sub-4009	control	matched	40	DISCOVERY MR750	F	20 to 24	n/a	n/a	exact	test
+sub-199	patient	matched	41	DISCOVERY MR750	F	35 to 39	L	HS	exact	dev
+sub-4080	control	matched	41	DISCOVERY MR750	F	35 to 39	n/a	n/a	exact	dev
+sub-135	patient	matched	42	DISCOVERY MR750	F	50 to 54	R	HS	exact	test
+sub-4088	control	matched	42	DISCOVERY MR750	F	50 to 54	n/a	n/a	exact	test
+sub-257	patient	matched	43	DISCOVERY MR750	F	20 to 24	R	OTHER	exact	dev
+sub-4038	control	matched	43	DISCOVERY MR750	F	20 to 24	n/a	n/a	exact	dev
+sub-11	patient	matched	44	DISCOVERY MR750	F	20 to 24	R	HS	exact	dev
+sub-4026	control	matched	44	DISCOVERY MR750	F	20 to 24	n/a	n/a	exact	dev
+sub-364	patient	matched	45	DISCOVERY MR750	F	50 to 54	L	HS	exact	dev
+sub-4082	control	matched	45	DISCOVERY MR750	F	50 to 54	n/a	n/a	exact	dev
+sub-417	patient	matched	46	DISCOVERY MR750	F	50 to 54	R	HS	exact	test
+sub-4041	control	matched	46	DISCOVERY MR750	F	50 to 54	n/a	n/a	exact	test
+sub-347	patient	matched	47	DISCOVERY MR750	F	50 to 54	L	HS	exact	dev
+sub-4085	control	matched	47	DISCOVERY MR750	F	50 to 54	n/a	n/a	exact	dev
+sub-440	patient	matched	48	DISCOVERY MR750	F	50 to 54	R	DNT	exact	dev
+sub-4035	control	matched	48	DISCOVERY MR750	F	50 to 54	n/a	n/a	exact	dev
+sub-132	patient	matched	49	SIGNA HDx	M	45 to 49	R	DUAL	exact	dev
+sub-4002	control	matched	49	SIGNA HDx	M	45 to 49	n/a	n/a	exact	dev
+sub-69	patient	matched	50	SIGNA HDx	F	<20	R	DNT	exact	dev
+sub-4054	control	matched	50	SIGNA HDx	F	<20	n/a	n/a	exact	dev
+sub-309	patient	matched	51	SIGNA HDx	M	45 to 49	R	CAV	exact	dev
+sub-4068	control	matched	51	SIGNA HDx	M	45 to 49	n/a	n/a	exact	dev
+sub-4	patient	matched	52	SIGNA HDx	M	40 to 44	R	OTHER	exact	dev
+sub-4031	control	matched	52	SIGNA HDx	M	40 to 44	n/a	n/a	exact	dev
+sub-28	patient	matched	53	SIGNA HDx	M	20 to 24	R	OTHER	exact	dev
+sub-4016	control	matched	53	SIGNA HDx	M	20 to 24	n/a	n/a	exact	dev
+sub-114	patient	matched	54	SIGNA HDx	F	35 to 39	R	HS	exact	test
+sub-4070	control	matched	54	SIGNA HDx	F	35 to 39	n/a	n/a	exact	test
+sub-356	patient	matched	55	SIGNA HDx	F	35 to 39	R	HS	exact	dev
+sub-4004	control	matched	55	SIGNA HDx	F	35 to 39	n/a	n/a	exact	dev
+sub-413	patient	matched	56	SIGNA HDx	F	45 to 49	R	HS	exact	dev
+sub-4008	control	matched	56	SIGNA HDx	F	45 to 49	n/a	n/a	exact	dev
+sub-149	patient	matched	57	SIGNA HDx	F	25 to 29	L	HS	exact	dev
+sub-4039	control	matched	57	SIGNA HDx	F	25 to 29	n/a	n/a	exact	dev
+sub-152	patient	matched	58	SIGNA HDx	F	20 to 24	R	HS	exact	dev
+sub-4065	control	matched	58	SIGNA HDx	F	20 to 24	n/a	n/a	exact	dev
+sub-315	patient	matched	59	SIGNA HDx	F	40 to 44	L	OTHER	exact	test
+sub-4093	control	matched	59	SIGNA HDx	F	40 to 44	n/a	n/a	exact	test
+sub-3	patient	lateralization_only		SIGNA HDx	M	25 to 29	L	DNT		dev
+sub-13	patient	lateralization_only		DISCOVERY MR750	M	25 to 29	R	DNT		dev
+sub-19	patient	lateralization_only		SIGNA HDx	M	25 to 29	L	DNT		test
+sub-24	patient	lateralization_only		SIGNA HDx	F	45 to 49	R	OTHER		dev
+sub-29	patient	lateralization_only		SIGNA HDx	F	30 to 34	L	HS		test
+sub-31	patient	lateralization_only		SIGNA HDx	F	50 to 54	R	HS		dev
+sub-33	patient	lateralization_only		SIGNA HDx	M	35 to 39	L	HS		dev
+sub-36	patient	lateralization_only		SIGNA HDx	M	30 to 34	L	OTHER		dev
+sub-41	patient	lateralization_only		SIGNA HDx	M	<20	R	HS		dev
+sub-43	patient	lateralization_only		SIGNA HDx	F	45 to 49	L	HS		test
+sub-45	patient	lateralization_only		SIGNA HDx	F	35 to 39	R	HS		dev
+sub-47	patient	lateralization_only		SIGNA HDx	M	55+	L	DNT		dev
+sub-48	patient	lateralization_only		SIGNA HDx	M	45 to 49	L	DUAL		dev
+sub-64	patient	lateralization_only		SIGNA HDx	M	30 to 34	R	HS		test
+sub-65	patient	lateralization_only		SIGNA HDx	F	50 to 54	R	CAV		dev
+sub-66	patient	lateralization_only		SIGNA HDx	M	25 to 29	R	OTHER		test
+sub-71	patient	lateralization_only		SIGNA HDx	M	55+	L	HS		test
+sub-90	patient	lateralization_only		SIGNA HDx	M	40 to 44	L	HS		dev
+sub-101	patient	lateralization_only		SIGNA HDx	F	20 to 24	R	HS		test
+sub-106	patient	lateralization_only		SIGNA HDx	F	20 to 24	L	HS		dev
+sub-111	patient	lateralization_only		SIGNA HDx	F	35 to 39	L	OTHER		test
+sub-115	patient	lateralization_only		SIGNA HDx	F	40 to 44	R	HS		dev
+sub-125	patient	lateralization_only		SIGNA HDx	F	30 to 34	L	HS		dev
+sub-133	patient	lateralization_only		SIGNA HDx	M	35 to 39	L	DNT		dev
+sub-142	patient	lateralization_only		SIGNA HDx	F	30 to 34	L	DUAL		dev
+sub-143	patient	lateralization_only		SIGNA HDx	F	30 to 34	L	HS		dev
+sub-146	patient	lateralization_only		SIGNA HDx	F	20 to 24	L	OTHER		dev
+sub-147	patient	lateralization_only		SIGNA HDx	M	30 to 34	R	HS		dev
+sub-154	patient	lateralization_only		SIGNA HDx	M	30 to 34	L	HS		dev
+sub-155	patient	lateralization_only		SIGNA HDx	F	25 to 29	R	HS		dev
+sub-157	patient	lateralization_only		SIGNA HDx	F	30 to 34	L	OTHER		dev
+sub-158	patient	lateralization_only		DISCOVERY MR750	M	20 to 24	R	TBC		dev
+sub-176	patient	lateralization_only		SIGNA HDx	F	20 to 24	L	HS		dev
+sub-180	patient	lateralization_only		SIGNA HDx	M	30 to 34	R	CAV		dev
+sub-186	patient	lateralization_only		SIGNA HDx	F	25 to 29	L	HS		dev
+sub-197	patient	lateralization_only		SIGNA HDx	F	55+	R	HS		test
+sub-201	patient	lateralization_only		SIGNA HDx	M	50 to 54	R	HS		dev
+sub-203	patient	lateralization_only		SIGNA HDx	F	55+	R	HS		dev
+sub-206	patient	lateralization_only		SIGNA HDx	F	40 to 44	R	CAV		dev
+sub-207	patient	lateralization_only		SIGNA HDx	F	45 to 49	R	HS		dev
+sub-222	patient	lateralization_only		SIGNA HDx	F	35 to 39	R	HS		dev
+sub-225	patient	lateralization_only		DISCOVERY MR750	M	20 to 24	R	DUAL		dev
+sub-227	patient	lateralization_only		SIGNA HDx	F	40 to 44	L	HS		test
+sub-229	patient	lateralization_only		SIGNA HDx	F	45 to 49	L	HS		dev
+sub-236	patient	lateralization_only		SIGNA HDx	F	<20	L	HS		dev
+sub-240	patient	lateralization_only		SIGNA HDx	M	25 to 29	L	HS		dev
+sub-243	patient	lateralization_only		SIGNA HDx	F	55+	L	DNT		dev
+sub-246	patient	lateralization_only		SIGNA HDx	M	35 to 39	R	HS		dev
+sub-251	patient	lateralization_only		SIGNA HDx	F	50 to 54	L	HS		dev
+sub-253	patient	lateralization_only		DISCOVERY MR750	M	25 to 29	R	CAV		dev
+sub-263	patient	lateralization_only		SIGNA HDx	F	25 to 29	L	HS		dev
+sub-264	patient	lateralization_only		SIGNA HDx	F	45 to 49	L	HS		test
+sub-267	patient	lateralization_only		SIGNA HDx	M	20 to 24	L	HS		dev
+sub-270	patient	lateralization_only		SIGNA HDx	F	<20	L	HS		dev
+sub-276	patient	lateralization_only		SIGNA HDx	M	25 to 29	L	OTHER		dev
+sub-282	patient	lateralization_only		SIGNA HDx	M	20 to 24	L	HS		dev
+sub-285	patient	lateralization_only		SIGNA HDx	F	20 to 24	R	FCD		dev
+sub-289	patient	lateralization_only		SIGNA HDx	F	20 to 24	R	OTHER		test
+sub-298	patient	lateralization_only		SIGNA HDx	F	50 to 54	L	OTHER		dev
+sub-300	patient	lateralization_only		SIGNA HDx	M	35 to 39	R	HS		test
+sub-302	patient	lateralization_only		DISCOVERY MR750	M	35 to 39	L	HS		dev
+sub-305	patient	lateralization_only		SIGNA HDx	F	30 to 34	R	HS		dev
+sub-317	patient	lateralization_only		SIGNA HDx	F	40 to 44	R	HS		dev
+sub-321	patient	lateralization_only		SIGNA HDx	M	20 to 24	L	CAV		dev
+sub-327	patient	lateralization_only		SIGNA HDx	F	25 to 29	R	HS		dev
+sub-332	patient	lateralization_only		SIGNA HDx	F	25 to 29	R	HS		test
+sub-346	patient	lateralization_only		DISCOVERY MR750	M	25 to 29	R	HS		test
+sub-348	patient	lateralization_only		DISCOVERY MR750	M	25 to 29	L	HS		dev
+sub-349	patient	lateralization_only		SIGNA HDx	M	25 to 29	L	HS		dev
+sub-350	patient	lateralization_only		SIGNA HDx	F	40 to 44	R	OTHER		dev
+sub-358	patient	lateralization_only		SIGNA HDx	M	55+	L	HS		dev
+sub-360	patient	lateralization_only		SIGNA HDx	M	30 to 34	R	OTHER		dev
+sub-366	patient	lateralization_only		SIGNA HDx	M	30 to 34	L	HS		dev
+sub-368	patient	lateralization_only		SIGNA HDx	M	40 to 44	L	HS		dev
+sub-372	patient	lateralization_only		SIGNA HDx	M	50 to 54	L	HS		dev
+sub-375	patient	lateralization_only		SIGNA HDx	F	25 to 29	L	HS		dev
+sub-376	patient	lateralization_only		SIGNA HDx	F	30 to 34	R	HS		dev
+sub-378	patient	lateralization_only		SIGNA HDx	M	<20	L	DUAL		test
+sub-382	patient	lateralization_only		SIGNA HDx	M	30 to 34	R	HS		dev
+sub-385	patient	lateralization_only		SIGNA HDx	F	55+	R	HS		dev
+sub-388	patient	lateralization_only		SIGNA HDx	F	25 to 29	L	HS		dev
+sub-396	patient	lateralization_only		SIGNA HDx	F	20 to 24	R	OTHER		dev
+sub-397	patient	lateralization_only		SIGNA HDx	F	45 to 49	L	HS		test
+sub-400	patient	lateralization_only		SIGNA HDx	F	40 to 44	R	HS		dev
+sub-401	patient	lateralization_only		SIGNA HDx	M	40 to 44	L	HS		dev
+sub-403	patient	lateralization_only		SIGNA HDx	F	20 to 24	R	DNT		dev
+sub-405	patient	lateralization_only		SIGNA HDx	M	20 to 24	R	HS		test
+sub-407	patient	lateralization_only		SIGNA HDx	F	<20	L	HS		dev
+sub-412	patient	lateralization_only		SIGNA HDx	F	50 to 54	L	CAV		dev
+sub-426	patient	lateralization_only		SIGNA HDx	M	45 to 49	L	HS		dev
+sub-427	patient	lateralization_only		SIGNA HDx	F	40 to 44	R	HS		dev
+sub-430	patient	lateralization_only		SIGNA HDx	M	35 to 39	L	HS		dev
+sub-432	patient	lateralization_only		SIGNA HDx	M	25 to 29	R	HS		dev
+sub-446	patient	lateralization_only		SIGNA HDx	F	45 to 49	L	HS		test
+sub-448	patient	lateralization_only		SIGNA HDx	F	35 to 39	L	CAV		dev
+sub-449	patient	lateralization_only		SIGNA HDx	F	55+	R	DNT		dev
+sub-450	patient	lateralization_only		DISCOVERY MR750	M	25 to 29	L	HS		test
+sub-451	patient	lateralization_only		SIGNA HDx	F	40 to 44	R	HS		dev
+sub-455	patient	lateralization_only		SIGNA HDx	F	40 to 44	R	HS		dev
+sub-461	patient	lateralization_only		SIGNA HDx	M	40 to 44	L	HS		dev
+sub-463	patient	lateralization_only		SIGNA HDx	F	25 to 29	R	DNT		dev

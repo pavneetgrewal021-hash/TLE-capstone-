@@ -1,0 +1,4 @@
+# Unix line endings everywhere: the scripts and subject lists also run on Linux servers
+* text=auto eol=lf
+*.docx binary
+*.png binary

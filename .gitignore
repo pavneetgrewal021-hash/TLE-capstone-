@@ -1,0 +1,31 @@
+# MRI data and run outputs (download from OpenNeuro; regenerate with the pipeline)
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pt
+run_balanced/
+run_server/
+fs_tables/
+upload_normalized/
+
+# transfer bundles for the GPU server
+*.zip
+*.tar.gz
+
+# old cohort versions and backups
+cohort_v*/
+labels_before_split_backup.tsv
+
+# local notes and scratch images
+PROJECT_CONTEXT_PROMPT.md
+sub-*_step3_vs_step4.png
+sub-*_T1_histogram_peaks.png
+
+# Python / editors
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+~$*.docx
