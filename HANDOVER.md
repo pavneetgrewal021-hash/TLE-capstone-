@@ -61,7 +61,7 @@ No MRI scans or images of subjects are included. The cohort files contain only t
 - **Title (chosen by the user):** "Spectral Hemisphere Graph Learning for Temporal Lobe Epilepsy Detection and Lateralization from Brain MRI"
 - **Type:** B.Tech CS final-year capstone (user is 2027 batch, in placement season). Team: the user + group members ("my group", "teammates", "my friend" who studied Steps 7–8). Team member names: **UNKNOWN**.
 - **Mentor:** a faculty mentor gave feedback (see 4.6). Name **UNKNOWN**.
-- **User's GitHub:** account `pavneetgrewal021-hash` (git user.name). Git email set to `pavneetgrewal021@gmail.com` (fixed from a typo on 2026-11-01). Repository for this project: **not created yet** (see 4.4).
+- **User's GitHub:** account `pavneetgrewal021-hash` (git user.name). Git email set to `pavneetgrewal021@gmail.com` (fixed from a typo on 2026-11-01). Repository: https://github.com/pavneetgrewal021-hash/TLE-capstone- (public, pushed 2026-11-19).
 - **Project portal description:** a ~120-word and a 50-word description were written for the capstone portal (text **UNKNOWN** verbatim; regenerate from section 4 if needed).
 
 ### 1.2 Research questions
@@ -80,7 +80,7 @@ No MRI scans or images of subjects are included. The cohort files contain only t
 | Scanners | GE DISCOVERY MR750, GE SIGNA HDx, GE SIGNA EXCITE (EXCITE has 0 controls → excluded) |
 | Modalities used | T1w and FLAIR (`anat/`), BIDS, `.nii.gz` + `.json` sidecars |
 | Clinical tables (NOT on OpenNeuro) | figshare: patient table `Metadata_Release_Anon.csv` (figshare item id 25612080; on the laptop at `C:\Users\pavne\Downloads\25612080 (1)\Metadata_Release_Anon.csv`), control table `Metadata_Controls_Release.csv` (laptop: `C:\Users\pavne\Downloads\Metadata_Controls_Release.csv`), `readme_metadata.pdf` defines the codes |
-| FreeSurfer tables | figshare `25612065.zip` (laptop: `C:\Users\pavne\Downloads\25612065.zip`), files used: `aseg_vol.txt`, `controls_aseg_vol.txt` (rows = measures, columns = subject IDs; IDs prefixed `sub-` by our loader). Extracted copies: laptop scratch folder (temporary) and server `/workspace/tle_code/fs_tables/` (server access ended) |
+| FreeSurfer tables | figshare `25612065.zip` (laptop: `C:\Users\pavne\Downloads\25612065.zip`), files used: `aseg_vol.txt`, `controls_aseg_vol.txt` (rows = measures, columns = subject IDs; IDs prefixed `sub-` by our loader). Extracted copies: laptop scratch folder (temporary) and server `/workspace/tle_code/fs_tables/` |
 | Wrong file to avoid | `Capstone\code\participants.tsv` belongs to a DIFFERENT dataset (UNAM ds004469). It caused the very first run to match 0 subjects. Never use it. |
 
 Patient eligibility: only patients whose `Op_Type` starts with "T" (temporal-lobe surgery; 356 of 443). 17 controls have no FLAIR (404 on download) → excluded.
@@ -111,9 +111,9 @@ Note: the user once said the **official project title may mention functional dat
 
 ### 1.7 Targets, deadlines, deliverables
 - **Mentor's target:** ~85% accuracy. Reached on held-out test (95.8% / 93.8%); CV 82.3% / 87.5%.
-- **College GPU server:** available until **2026-11-01**. The user applied (or was applying) for an extension; outcome **UNKNOWN**.
+- **College GPU server:** originally until 2026-11-01; still accessible on 2026-11-19 (extension end date UNKNOWN).
 - **Extension application deliverables (prepared):** project thumbnail (`docs/project_pipeline_thumbnail.png`), video plan + narration script (section 4.5), 300-word project summary (section 4.5). Whether submitted: **UNKNOWN**.
-- **Final capstone deadline / thesis / report format: UNKNOWN.** A paper was not discussed.
+- **Final capstone deadline: end of November 2026.** Report / slides / viva format: UNKNOWN. A paper was not discussed.
 - **Resume:** user's resume lists this project; updated bullet block given (section 4.5).
 
 ---
@@ -309,7 +309,7 @@ Dates are 2026. "Laptop" = user's Windows 11 laptop; "server" = college GPU serv
 ### 28 Oct – 1 Nov
 - Group doc "TLE Pipeline: All Steps and What Changed" (Claude Docs artifact on the OLD account).
 - Atlas question answered (why no atlas: none provided; rigid-only alignment; FreeSurfer gives subject-specific segmentations; region boxes worked) — atlas-region graph proposed as optional extra, not done.
-- Learning-rate check (mentor request): `TLE_CNN_LR` env added to `gpu_hippo_cnn.py` (output folder suffix `_lr<value>`), `lr_sweep_summary.py`; laptop smoke-tested; bundle `tle_update12.zip`. Server run status UNKNOWN (user only pasted the check command, never its output).
+- Learning-rate check (mentor request): `TLE_CNN_LR` env added to `gpu_hippo_cnn.py` (output folder suffix `_lr<value>`), `lr_sweep_summary.py`; laptop smoke-tested; bundle `tle_update12.zip`. Ran on the server; results read 2026-11-19 (see CURRENT STATUS at the top).
 - GPU-extension application material: thumbnail PNG, video shot list + narration, 300-word summary.
 - GitHub preparation (1 Nov): local repo initialised in `TLE\` (`git init -b main`), `.gitignore`, `.gitattributes`, `README.md`, `requirements.txt`, `results/` added, 54 files staged (~1.2 MB). **No commit yet, no remote** (waiting for the user to create an empty public repo and give the URL). User chose: **public** repo, **include** cohort/label files. IDEAS licence CC0 confirmed.
 - Global git email typo fixed (`gmial` → `gmail`).
@@ -364,7 +364,7 @@ Other results: see section 2 (Step 12/13 dev, MIL, classifiers, volumetry).
 
 ### 4.2 What was being worked on last
 1. **Teaching:** Step 8, piece 3 (standardisation of the 14 features to z-scores, pooled over the 3 views). Pending check question to the user: "after standardisation, if a patch has T1 Energy z = 0, what does that tell you?" (answer: exactly average energy). Next pieces planned: 4 = projection head network (14 → 64 → 32, L2 norm), 5 = InfoNCE loss (positives/negatives, temperature), 6 = training loop, 7 = validation (retrieval + McNemar), 8 = outputs. Then Steps 9–13 and the new models.
-2. **GitHub:** waiting for repo URL (see 4.4).
+2. **GitHub:** done — repo pushed 2026-11-19.
 3. **GPU extension application:** materials delivered; submission and approval status UNKNOWN.
 
 ### 4.3 Known bugs / limitations
@@ -380,11 +380,11 @@ Other results: see section 2 (Step 12/13 dev, MIL, classifiers, volumetry).
 - HDx FLAIR has 5 mm slices vs 1 mm MR750 (scanner-matched, but mixed).
 - No external validation.
 
-### 4.4 Next steps (priority order)
-1. **Push to GitHub.** User creates an empty PUBLIC repo on github.com (no README/licence), gives the URL; then in `C:\Users\pavne\OneDrive\Documents\TLE\`: `git commit` (message ending with the attribution line the harness requires), `git remote add origin <url>`, `git push -u origin main` (Git Credential Manager opens a browser login — the user logs in; never handle passwords). `gh` CLI is NOT installed. Repo link is needed for the GPU-extension form ("Project Link") and resume.
-2. Read the LR sweep results (it ran): on the server `grep -c "^saved" /workspace/tle_data/lr_sweep.log; grep FAILED /workspace/tle_data/lr_sweep.log; sed -n '/learning-rate sensitivity/,$p' /workspace/tle_data/lr_sweep.log` (16 runs expected). Interpret as a sensitivity check only — locked models stay at lr 1e-3. Download `/workspace/last_results.tar.gz` (contains `lr_sweep.log`, `gpu_hippo`, `token_outputs`) to the laptop as backup.
-3. Continue teaching from Step 8 piece 3 (user's explicit current activity).
-4. Export the Claude-hosted documents (group doc, mentor doc, Steps 7–8 study doc) from the old account to Word/PDF — they will not be accessible from a new account (URLs in 7.6).
+### 4.4 Next steps (priority order) — updated 2026-11-19
+1. **Final write-up for the end-of-November deadline** — first ask what the college requires (report / slides / viva / code, template, page limit).
+2. Remaining mentor items only if the user wants them: prior-work summary table, "normalized vector" (meaning UNKNOWN), mother-wavelet comparison.
+3. Teaching is paused; resume from Step 8 piece 3 only if asked.
+4. (Done) GitHub push, LR sweep, export of old-account documents.
 5. Update mentor doc + pipeline/dataset docx with the final results (pending since 27 Oct).
 6. Optional, dev-CV only: per-sub-band wavelet statistics (+ mother-wavelet comparison db4 vs haar/sym4/coif — mentor asked), atlas-region graph (Harvard-Oxford via nilearn on MNI-aligned patch centres), answer "normalized vector" question once its meaning is clarified.
 
@@ -419,7 +419,7 @@ Resume file on laptop: `C:\Users\pavne\OneDrive\Documents\Claude code\Pavneet_Re
 | Different feature-vector combinations | done — ~20 sets |
 | Mother wavelet from previous studies | not done (user deprioritised: "not caring about mother wavelet") |
 | Full metrics (F1, AUC, accuracy …) | done everywhere |
-| Change learning rate | code ready; run status UNKNOWN |
+| Change learning rate | **done** — 1e-3 on a stable plateau (see CURRENT STATUS) |
 
 ---
 
@@ -429,7 +429,7 @@ All current code is in `code/` of this zip (exact copies). Directory structure o
 
 ```
 C:\Users\pavne\OneDrive\Documents\
-├── TLE\                                 ← code + cohort files (git repo, not yet committed/pushed)
+├── TLE\                                 ← code + cohort files (local clone of the GitHub repo)
 │   ├── pipeline_config.py               shared paths, dev_only(), report_file(), shard support
 │   ├── step0_select_subjects.py         Step 0
 │   ├── download_subjects.py             Step 0 helper (OpenNeuro S3, 8 parallel)
@@ -529,7 +529,7 @@ Environment variables used by the code: `TLE_DATA_ROOT`, `TLE_RUN_DIR`, `TLE_SHA
 - Hippo CNN: `python -u hippo_crops.py 12 && TLE_VOL_DIR=fs_tables python -u gpu_hippo_cnn.py tle && TLE_VOL_DIR=fs_tables python -u gpu_hippo_cnn.py side` (> hippo.log; ~6 s per fold)
 - Temporal + ensembles: `TLE_BOX=temporal python -u hippo_crops.py 12 && export TLE_VOL_DIR=fs_tables TLE_CROP_DIR=temporal_crops && python -u gpu_hippo_cnn.py tle && python -u gpu_hippo_cnn.py side && python -u combine_oof.py tle && python -u combine_oof.py side` (> temporal.log)
 - Final test (done once): `export TLE_VOL_DIR=fs_tables && nohup bash -c 'python -u final_test.py tle && python -u final_test.py side' > /workspace/tle_data/final_test.log 2>&1 &`
-- LR sweep (status UNKNOWN): `export TLE_VOL_DIR=fs_tables && nohup bash -c 'for lr in 1e-4 3e-4 3e-3 1e-2; do for c in hippo_crops temporal_crops; do for t in tle side; do TLE_CNN_LR=$lr TLE_CROP_DIR=$c python -u gpu_hippo_cnn.py $t || echo "FAILED $lr $c $t"; done; done; done; python lr_sweep_summary.py tle; python lr_sweep_summary.py side' > /workspace/tle_data/lr_sweep.log 2>&1 &`
+- LR sweep (done 2026-11): `export TLE_VOL_DIR=fs_tables && nohup bash -c 'for lr in 1e-4 3e-4 3e-3 1e-2; do for c in hippo_crops temporal_crops; do for t in tle side; do TLE_CNN_LR=$lr TLE_CROP_DIR=$c python -u gpu_hippo_cnn.py $t || echo "FAILED $lr $c $t"; done; done; done; python lr_sweep_summary.py tle; python lr_sweep_summary.py side' > /workspace/tle_data/lr_sweep.log 2>&1 &`
 - Archive: `cd /workspace/tle_data && tar czf /workspace/tle_results_final.tar.gz --ignore-failed-read *.log run_server/{final_test,gpu_hippo,gpu_mil,experiments,classifier_outputs,lateralization_outputs,metrics,figures,logs,embedding_outputs,fusion_outputs}`
 
 ### 6.6 Problems hit on the server and fixes
@@ -597,13 +597,13 @@ These are private to the old account; the new account will not be able to open t
 ## 8. GAPS (UNKNOWN items) and first questions to ask
 
 ### 8.1 UNKNOWN list
-1. Capstone final deadline, submission format (report/thesis/viva), and grading rubric.
+1. Capstone submission format (report/slides/viva/code), template and grading rubric (deadline known: end of November 2026).
 2. Team member names and who does what; mentor's name.
 3. Meaning of the mentor's "normalized vector" request.
 4. GPU-server extension terms and end date (server was still accessible on 2026-11-19).
-5. Learning-rate sweep results (the run exists on the server; numbers not yet read).
+5. (Resolved) Learning-rate sweep done — see CURRENT STATUS.
 6. Whether the video (with or without voice) and thumbnail/summary were submitted.
-7. GitHub repo URL (not created yet when this handover was written).
+7. (Resolved) GitHub repo: https://github.com/pavneetgrewal021-hash/TLE-capstone-
 8. Server URL protocol (http/https), VPN availability off campus, exact login method — **<user provides>** for credentials.
 9. Final value of `TLE_HDBET_DEVICE` on the server copy of `env_server.sh` (irrelevant to results).
 10. Exact text of the capstone portal descriptions and of the 300-word summary (outline in 4.5).
@@ -614,18 +614,7 @@ These are private to the old account; the new account will not be able to open t
 15. Whether the user wants the remaining mentor items (prior-work chart, mother-wavelet comparison) done at all.
 
 ### 8.2 Questions the new Claude should ask first
-1. "Do you still have access to the college GPU server? If yes, did the learning-rate sweep finish — can you paste `grep -c "^saved" /workspace/tle_data/lr_sweep.log`?"
-2. "Have you created the GitHub repo? Send me the URL and I'll commit and push the prepared files from `C:\Users\pavne\OneDrive\Documents\TLE\`."
-3. "What is the capstone deadline and what must be submitted (report, presentation, viva, code)?"
-4. "Do you want to continue learning from Step 8 piece 3 (standardisation), where we stopped?"
-5. "Did you export the three Claude-hosted documents from your old account?"
-6. "What did your mentor mean by 'normalized vector'?"
-7. "Were the GPU-extension materials submitted, and with voice-over or silent?"
-
-
-## UPDATE 2026-11-19 — learning-rate sweep results (dev CV, 5-fold x 5)
-Final ensemble AUC, TLE vs control: 1e-4 0.873 | 3e-4 0.891 | 1e-3 0.922 (82.3%) | 3e-3 0.922 | 1e-2 0.908
-Final ensemble AUC, left vs right:  1e-4 0.925 | 3e-4 0.944 | 1e-3 0.949 (87.5%) | 3e-3 0.949 | 1e-2 0.950
-Conclusion: 1e-3 lies on a stable plateau (1e-3 to 3e-3); 1e-4 under-trains the CNNs (~55% alone). Locked models unchanged.
-Files: /workspace/tle_data/run_server/gpu_hippo/lr_sweep_tle.csv, lr_sweep_side.csv. Mentor's learning-rate request: answered.
-Server status 2026-11-19: /workspace/tle_code complete (28 scripts, docs/, results/, metadata/, HANDOVER.md); data + all outputs in /workspace/tle_data.
+1. "What exactly does the college require for the end-of-November submission (report, slides, viva, code)? Is there a template, page limit or rubric?"
+2. "Who am I talking to, and which part of the write-up are you handling?"
+3. "Do you want the prior-work summary table, and has the mentor explained 'normalized vector'?"
+4. "Were the GPU-extension materials (video, thumbnail, summary) submitted?"
