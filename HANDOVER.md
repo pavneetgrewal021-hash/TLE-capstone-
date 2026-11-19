@@ -4,6 +4,34 @@ Written 2026-11-13 by the previous Claude (Claude Code, desktop app on the user'
 Everything below is from the working session, the project files, earlier session transcripts and a persistent memory file.
 Anything not known is marked **UNKNOWN**; all gaps are collected in section 8.
 
+## CURRENT STATUS — 2026-11-19 (read this first; where it disagrees with older sections below, THIS wins)
+
+| Item | Status |
+|---|---|
+| **Capstone deadline** | **End of November 2026** |
+| Required deliverables (report / slides / viva / code) | UNKNOWN — ask the user |
+| GitHub | **Public repo live:** https://github.com/pavneetgrewal021-hash/TLE-capstone- (branch `main`). Local clone: `C:\Users\pavne\OneDrive\Documents\TLE\`. Teammates invited as collaborators. Contains code, README, this file, cohort files, `results/`, docs. No MRI data, no run outputs, no IDEAS metadata tables. |
+| College GPU server | **Still accessible on 2026-11-19** (campus network only; extension terms UNKNOWN). Server copy is complete: `/workspace/tle_code` = all 28 scripts + `docs/` + `results/` + `metadata/` (IDEAS patient/control tables) + `HANDOVER.md`; `/workspace/tle_data` = 219 subjects + every `run_server` output (34 GB). Note: on the server `step0_select_subjects.py` still points to laptop paths for the metadata tables — edit to `/workspace/tle_code/metadata/...` only if Step 0 is ever re-run (not needed; cohort fixed in `labels.tsv`). |
+| Learning-rate sweep (mentor request) | **Done, 16/16 runs, no failures.** Final-ensemble dev-CV AUC — TLE vs control: 1e-4 0.873, 3e-4 0.891, **1e-3 0.922 (82.3%)**, 3e-3 0.922, 1e-2 0.908. Left vs right: 0.925, 0.944, **0.949 (87.5%)**, 0.949, 0.950. CNNs alone at 1e-4 ≈ 55% (under-trained in 80 epochs). Conclusion: our pre-chosen 1e-3 sits on a stable plateau (1e-3–3e-3); locked models unchanged; held-out test NOT rerun. Files: `/workspace/tle_data/run_server/gpu_hippo/lr_sweep_tle.csv`, `lr_sweep_side.csv`. |
+| Old-account Claude documents (group doc, mentor doc, Steps 7–8 doc) | **Exported; the user has them.** |
+| Teaching walkthrough | **Paused** at Step 8, piece 3 — the user does not want teaching for now; resume only if asked. |
+| Team setup | Group uses a shared Claude account ("Alankar", Pro) in the browser, Project "Capstone"; GitHub connected to the Project. Server access for teammates off campus needs a college VPN (availability UNKNOWN). |
+
+### Current priorities (in order)
+1. **Final write-up for the end-of-November submission:** find out exactly what the college requires (report / slides / viva / code), then update docs with the final results (section 4.1) and the learning-rate result.
+2. Answer any remaining mentor items the user still wants (4.6): prior-work summary table; "normalized vector" (meaning UNKNOWN); mother-wavelet comparison (deprioritised).
+3. Optional, dev-CV only, only if time allows: per-sub-band wavelet statistics (Step 6 padding-zero issue).
+
+### Working rules (short version: details in sections 0, 6 and 7)
+- Data is **sMRI only (T1 + FLAIR), no fMRI.** Pipeline = Steps 0–13, plus the CNN/volumetry models that give the final results.
+- **Never rerun `final_test.py` or tune on the 44 held-out subjects.** New experiments = development cross-validation only.
+- Report CV and held-out numbers together; CV is the stable estimate (held-out set is small).
+- Claude cannot reach the campus GPU server. Workflow: Claude writes and tests code, delivers `tle_updateN.zip` (next: `tle_update13.zip`) or a GitHub commit + ONE pasteable command; a group member on campus runs it and pastes back the output.
+- Code changes go through GitHub; update this STATUS block when something important changes.
+- Never handle passwords; credentials are the users'.
+
+---
+
 **Package contents (this zip)**
 
 | Path in zip | What |
